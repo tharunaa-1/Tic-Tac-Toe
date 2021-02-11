@@ -131,7 +131,7 @@ class Application(tk.Frame):
 	def get_text_pos(self, pos):
 		x, y = pos
 
-		# in first row
+
 		if (x > 0 and x < 100) and (y > 0 and y < 100):
 			position = ((50, 50), 1)
 		elif (x > 100 and x < 200) and (y > 0 and y < 100):
@@ -139,7 +139,7 @@ class Application(tk.Frame):
 		elif (x > 200 and x < 300) and (y > 0 and y < 100):
 			position = ((250, 50), 3)
 
-		# in second row
+		
 		elif (x > 0 and x < 100) and (y > 100 and y < 200):
 			position = ((50, 150), 4)
 		elif (x > 100 and x < 200) and (y > 100 and y < 200):
